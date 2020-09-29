@@ -1,5 +1,6 @@
 # ForwardCurveAPI
 Forward Curve calculation using C# and Python
 
-Example of how a dll can be created in Visual Studio C# using the System.Dynamic namespace which can then be called from Python using the clr namespace. 
-This shows a forward curve being created from a spot yield curve which leverages the increased efficiency of using a compiled C# dll relative to using all Python code.
+Example of how C# and Python can be combined to leverage the speed of a complied dll relative to using all Python code but maintaining Python as the interface.  This repository shows an example of creating a dll for a potentially repetitive task of computing a forward curve from a spot curve using the System.Dynamic namespace in Visual Studio and the clr namespace in Python.
+
+![](Figure_1.png)
